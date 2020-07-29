@@ -136,6 +136,7 @@ changing_alan = Hash.new
 changing_alan.inject(programmer_hash){ |h, (k, val)|  [k, "#{val}"]}
 
 
+
 end
 
 def adding_to_dennis
