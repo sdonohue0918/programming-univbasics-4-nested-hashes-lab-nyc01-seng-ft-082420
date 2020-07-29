@@ -132,8 +132,8 @@ def changing_alan
 
 programmer_hash[:alan_kay][:known_for] = "GUI"
 
-changing_alan = Hash.new
-changing_alan.inject(programmer_hash){ |h, (k, val)|  [k, "#{val}"]}
+alan = Hash[programmer_hash.map{|k,str| [k,"#{str}"] } ]
+
 
 
 
