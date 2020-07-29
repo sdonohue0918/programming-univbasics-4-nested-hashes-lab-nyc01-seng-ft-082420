@@ -132,7 +132,8 @@ def changing_alan
 
 programmer_hash[:alan_kay][:known_for] = "GUI"
 
-return programmer_hash[:alan_kay][:known_for]
+changing_alan = Hash.new
+changing_alan.inject(programmer_hash){ |h, (k, val)|  [k, "#{val}"]}
 
 
 end
