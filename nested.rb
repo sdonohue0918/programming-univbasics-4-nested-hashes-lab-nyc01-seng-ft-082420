@@ -137,6 +137,8 @@ alan = Hash[programmer_hash.map{|k,str| [k,"#{str}"] } ]
 
 
 
+
+
 end
 
 def adding_to_dennis
